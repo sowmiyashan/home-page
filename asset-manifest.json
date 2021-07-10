@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/home-page/static/css/main.276597b1.chunk.css",
-    "main.js": "/home-page/static/js/main.b03ffa7a.chunk.js",
-    "main.js.map": "/home-page/static/js/main.b03ffa7a.chunk.js.map",
+    "main.css": "/home-page/static/css/main.ad00b63c.chunk.css",
+    "main.js": "/home-page/static/js/main.253da68c.chunk.js",
+    "main.js.map": "/home-page/static/js/main.253da68c.chunk.js.map",
     "runtime-main.js": "/home-page/static/js/runtime-main.93296e45.js",
     "runtime-main.js.map": "/home-page/static/js/runtime-main.93296e45.js.map",
     "static/js/2.fe558977.chunk.js": "/home-page/static/js/2.fe558977.chunk.js",
     "static/js/2.fe558977.chunk.js.map": "/home-page/static/js/2.fe558977.chunk.js.map",
     "index.html": "/home-page/index.html",
-    "static/css/main.276597b1.chunk.css.map": "/home-page/static/css/main.276597b1.chunk.css.map",
+    "static/css/main.ad00b63c.chunk.css.map": "/home-page/static/css/main.ad00b63c.chunk.css.map",
     "static/js/2.fe558977.chunk.js.LICENSE.txt": "/home-page/static/js/2.fe558977.chunk.js.LICENSE.txt",
     "static/media/Dashboard 1.4ca8ce37.svg": "/home-page/static/media/Dashboard 1.4ca8ce37.svg",
     "static/media/Dashboard 2.9816a493.svg": "/home-page/static/media/Dashboard 2.9816a493.svg",
@@ -17,7 +17,7 @@
     "static/media/babylon.75f3b19f.svg": "/home-page/static/media/babylon.75f3b19f.svg",
     "static/media/bank.37dc1a20.svg": "/home-page/static/media/bank.37dc1a20.svg",
     "static/media/bankofamerica.3aec550e.svg": "/home-page/static/media/bankofamerica.3aec550e.svg",
-    "static/media/building.fc412f2e.png": "/home-page/static/media/building.fc412f2e.png",
+    "static/media/App.css": "/home-page/static/media/buildings.8298c52e.png",
     "static/media/bykea.337955af.svg": "/home-page/static/media/bykea.337955af.svg",
     "static/media/cabify.2cf0e86b.svg": "/home-page/static/media/cabify.2cf0e86b.svg",
     "static/media/captialone.6aaf96be.svg": "/home-page/static/media/captialone.6aaf96be.svg",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.93296e45.js",
     "static/js/2.fe558977.chunk.js",
-    "static/css/main.276597b1.chunk.css",
-    "static/js/main.b03ffa7a.chunk.js"
+    "static/css/main.ad00b63c.chunk.css",
+    "static/js/main.253da68c.chunk.js"
   ]
 }
