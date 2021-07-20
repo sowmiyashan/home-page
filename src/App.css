@@ -1,38 +1,468 @@
-.App {
+*{
+  line-height: 1.875rem;
+}
+
+.nav {
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a:active{
+  -webkit-tap-highlight-color: transparent;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); */
+  background-color: white;
+  overflow-y: hidden;
+  transition: 0.5s;
+  font-family: 'Inter', serif;
+  font-weight: 400;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
   text-align: center;
+  margin-top: 30px;
+  font-size: 1.1rem;
+  font-family: 'Inter', serif;
+  font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  /* font-size: 36px; */
+  color: #000000;
+  display: block;
+  transition: 0.3s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.overlay .logo{
+  font-size: 1.1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 24px 40px;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 3.7%;
+  right: 2%;
+  color:black;
+  font-size: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
   }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.btn {
+  padding: 0 15px 0 0!important;
+  padding-right: 10px;
+}
+
+
+.padding{
+  padding:10px 10px;
+  margin-top: 4%;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  color: purple;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.header-right {
+  float: right;
+}
+
+.menu{
+  height: 50px;
+  width: 50px;
+}
+
+
+
+@media screen and (max-width: 640px) {
+  .padding{
+    margin-top: 0;
+    display: initial;
+  }
+
+  .cont{
+    display: block;
+  }
+
+  .header-right a {display: none;}  
+
+  .topnav a.icon {
+    position: absolute;
+    top: 18%;
+    right: 2%;
+    float: right;
+    display: block;
+  }
+
+  .icon{
+    padding: 0 !important;
+  }
+
+  .header-right{
+    float: left;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  
+}
+
+.main{
+  background-image: url("./images/buildings.png");
+
+  /* height: 100%; */
+  /* width: 100%; */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* position: relative; */
+}
+
+
+
+.main-bg{
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.heading {
+  line-height: 64px;
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-size: 3rem;
+}
+.heading-sub {
+  line-height: 30px;
+}
+.header-gradTheory {
+  z-index: 20;
+  position: absolute;
+  padding: 6px 12px;
+  /* top: 84px; */
+  left: 30px;
+  display: none;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.nav-gradtheory a:first-child {
+  cursor: pointer;
+  font-weight: 600;
+}
+.nav-gradtheory > div:first-child {
+  padding: 6px 12px;
+}
+.nav-gradtheory > div:first-child:hover {
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 6px 12px;
+  background-color: rgba(171, 132, 233, 0.589);
+}
+.nav-gradtheory:hover {
+}
+.nav-gradtheory:hover .header-gradTheory {
+  display: block;
+}
+.grad-con {
+  position: relative;
+  z-index: 20;
+  /* padding: 2rem 0 0; */
+  margin-bottom: 0;
+}
+.grad-con > .content {
+  background: #fff;
+  -webkit-box-shadow: 0 8px 16px 0 rgb(11 3 45 / 20%);
+  box-shadow: 0 8px 16px 0 rgb(11 3 45 / 20%);
+  border-radius: 12px;
+  padding: 4rem;
+  width: 1100px;
+  margin: 0 auto;
+}
+.content {
   display: flex;
+  flex-direction: row;
+}
+.modal {
+  margin-top: 25px;
+  margin-left: 20px;
   flex-direction: column;
-  align-items: center;
+}
+.content > .coll:nth-child(2) {
+  /* margin-top: 20px; */
+}
+.content > .coll {
+  margin-right: 0.8rem;
+}
+.content > .coll:last-child {
+  margin-right: 0;
+}
+.coll .title {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 800;
+  color: rgba(145, 79, 250, 0.938);
+  text-transform: uppercase;
+  margin: 10px 10px 1rem;
+}
+.coll hr {
+  margin-bottom: 10px;
+}
+/* .coll > div:first-child {
+  display: flex;
+  flex-direction: row;
+} */
+.op {
+  cursor: pointer;
+  padding: 8px 10px 10px;
+}
+.op:hover {
+  border-radius: 10px;
+  background-color: #f4f6f8;
+}
+.op > div > p {
+  font-weight: 900;
+}
+.coll > .op > p:last-child {
+  color: #637381;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 1300;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  z-index: 10;
 }
 
-.App-link {
-  color: #61dafb;
+.btm-text{
+  letter-spacing: -1px;
+  width: 850px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btm-cont{
+  max-width: 850px;
+}
+
+.heading-2{
+  letter-spacing: -1px;
+}
+
+.main-text{
+  padding-top: 50px;
+}
+
+@media(max-width:996px){
+  .btm-text{
+    letter-spacing: 1px;
+    width: 700px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .btm-cont{
+    max-width: 700px;
   }
+
+}
+
+
+
+
+@media (max-width: 770px) {
+  .header-gradTheory {
+    display: none;
+  }
+
+  
+
+  .btm-text{
+    letter-spacing: 1px;
+    width: 600px;
+  }
+  
+  .btm-cont{
+    max-width: 600px;
+  }
+}
+
+@media (max-width:650px){
+
+  .main{
+    background-image: url("./images/mobile-02.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  img.dashboard2{
+    width: 550px;
+    /* height: 490px; */
+  }
+
+  img.dashboard1{
+    width: 1000px;
+  }
+
+  .heading{
+    font-size: calc(1.425rem + 2.1vw);
+    line-height: 2.875rem;
+  }
+
+  .m-cont{
+    height: 60vh !important
+  }
+
+  .sub-headings{
+    font-size: 2rem;
+  }
+
+ 
+
+  .footer{
+    margin-top: 0 !important;
+  }
+
+  .quote-ltext{
+    margin-top: 50px;
+  }
+
+  .quote{
+    margin-top: 0 !important;
+  }
+
+
+    .stud-sec{
+      padding-bottom: 0 !important;
+    }
+  
+
+}
+
+
+@media (max-width: 415px) {
+  .op > div > p {
+    font-size: 1rem;
+  }
+  .coll .title {
+    margin-bottom: 0px;
+  }
+  .coll {
+    margin-bottom: 20px;
+  }
+  .coll hr {
+    display: none;
+  }
+}
+
+@media (min-width:1250px) {
+  /* .m-cont{
+    height: 70vh;
+  } */
+}
+
+@media (min-width:1400px){
+  .m-cont{
+    height:93vh;
+  }
+}
+
+.m-cont{
+  height:93vh;
+}
+
+.quote{
+  margin-top: 120px;
+}
+
+/* .dashboard2{
+  margin-bottom: 10px;
+} */
+
+.stud-sec{
+  padding-bottom: 8rem;
+}
+
+.clg-section{
+  
+}
+
+.logo-sec{
+  text-align: center;
+  background-color: white;
+}
+
+
+.footer{
+  margin-top: 140px;
 }
