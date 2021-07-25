@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/home-page/static/css/main.165ae6d3.chunk.css",
-    "main.js": "/home-page/static/js/main.ac85f0a6.chunk.js",
-    "main.js.map": "/home-page/static/js/main.ac85f0a6.chunk.js.map",
+    "main.css": "/home-page/static/css/main.dee8da6a.chunk.css",
+    "main.js": "/home-page/static/js/main.7f551ce9.chunk.js",
+    "main.js.map": "/home-page/static/js/main.7f551ce9.chunk.js.map",
     "runtime-main.js": "/home-page/static/js/runtime-main.8439a3f9.js",
     "runtime-main.js.map": "/home-page/static/js/runtime-main.8439a3f9.js.map",
     "static/js/2.3381eca1.chunk.js": "/home-page/static/js/2.3381eca1.chunk.js",
     "static/js/2.3381eca1.chunk.js.map": "/home-page/static/js/2.3381eca1.chunk.js.map",
     "index.html": "/home-page/index.html",
-    "static/css/main.165ae6d3.chunk.css.map": "/home-page/static/css/main.165ae6d3.chunk.css.map",
+    "static/css/main.dee8da6a.chunk.css.map": "/home-page/static/css/main.dee8da6a.chunk.css.map",
     "static/js/2.3381eca1.chunk.js.LICENSE.txt": "/home-page/static/js/2.3381eca1.chunk.js.LICENSE.txt",
     "static/media/Asset 4-8.97f33b59.png": "/home-page/static/media/Asset 4-8.97f33b59.png",
     "static/media/Dashboard 2.9816a493.svg": "/home-page/static/media/Dashboard 2.9816a493.svg",
@@ -44,6 +44,7 @@
     "static/media/swing.f2ea4e3d.svg": "/home-page/static/media/swing.f2ea4e3d.svg",
     "static/media/swvl.38fab6a7.svg": "/home-page/static/media/swvl.38fab6a7.svg",
     "static/media/td.e3333072.svg": "/home-page/static/media/td.e3333072.svg",
+    "static/media/tick.576cd980.576cd980.svg": "/home-page/static/media/tick.576cd980.576cd980.svg",
     "static/media/twitter.5b25c834.svg": "/home-page/static/media/twitter.5b25c834.svg",
     "static/media/university networking.b43635b5.jpg": "/home-page/static/media/university networking.b43635b5.jpg",
     "static/media/wellsfargo.330fb5e7.svg": "/home-page/static/media/wellsfargo.330fb5e7.svg"
@@ -51,7 +52,7 @@
   "entrypoints": [
     "static/js/runtime-main.8439a3f9.js",
     "static/js/2.3381eca1.chunk.js",
-    "static/css/main.165ae6d3.chunk.css",
-    "static/js/main.ac85f0a6.chunk.js"
+    "static/css/main.dee8da6a.chunk.css",
+    "static/js/main.7f551ce9.chunk.js"
   ]
 }
