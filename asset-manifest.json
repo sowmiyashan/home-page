@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/home-page/static/css/main.b95a8932.chunk.css",
-    "main.js": "/home-page/static/js/main.bf2327a9.chunk.js",
-    "main.js.map": "/home-page/static/js/main.bf2327a9.chunk.js.map",
+    "main.css": "/home-page/static/css/main.4b46771c.chunk.css",
+    "main.js": "/home-page/static/js/main.42752585.chunk.js",
+    "main.js.map": "/home-page/static/js/main.42752585.chunk.js.map",
     "runtime-main.js": "/home-page/static/js/runtime-main.8439a3f9.js",
     "runtime-main.js.map": "/home-page/static/js/runtime-main.8439a3f9.js.map",
-    "static/js/2.eaec1634.chunk.js": "/home-page/static/js/2.eaec1634.chunk.js",
-    "static/js/2.eaec1634.chunk.js.map": "/home-page/static/js/2.eaec1634.chunk.js.map",
+    "static/js/2.d003eca2.chunk.js": "/home-page/static/js/2.d003eca2.chunk.js",
+    "static/js/2.d003eca2.chunk.js.map": "/home-page/static/js/2.d003eca2.chunk.js.map",
     "index.html": "/home-page/index.html",
-    "static/css/main.b95a8932.chunk.css.map": "/home-page/static/css/main.b95a8932.chunk.css.map",
-    "static/js/2.eaec1634.chunk.js.LICENSE.txt": "/home-page/static/js/2.eaec1634.chunk.js.LICENSE.txt",
+    "static/css/main.4b46771c.chunk.css.map": "/home-page/static/css/main.4b46771c.chunk.css.map",
+    "static/js/2.d003eca2.chunk.js.LICENSE.txt": "/home-page/static/js/2.d003eca2.chunk.js.LICENSE.txt",
     "static/media/Asset 4-8.97f33b59.png": "/home-page/static/media/Asset 4-8.97f33b59.png",
     "static/media/Dashboard 2.9816a493.svg": "/home-page/static/media/Dashboard 2.9816a493.svg",
     "static/media/Desktop - 2 with logos.23ca4412.jpg": "/home-page/static/media/Desktop - 2 with logos.23ca4412.jpg",
+    "static/media/Leadership.a00171d6.png": "/home-page/static/media/Leadership.a00171d6.png",
+    "static/media/PBL.0b355e4c.png": "/home-page/static/media/PBL.0b355e4c.png",
     "static/media/arrow.57705450.svg": "/home-page/static/media/arrow.57705450.svg",
     "static/media/babylon.75f3b19f.svg": "/home-page/static/media/babylon.75f3b19f.svg",
     "static/media/bank.37dc1a20.svg": "/home-page/static/media/bank.37dc1a20.svg",
@@ -51,8 +53,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8439a3f9.js",
-    "static/js/2.eaec1634.chunk.js",
-    "static/css/main.b95a8932.chunk.css",
-    "static/js/main.bf2327a9.chunk.js"
+    "static/js/2.d003eca2.chunk.js",
+    "static/css/main.4b46771c.chunk.css",
+    "static/js/main.42752585.chunk.js"
   ]
 }
